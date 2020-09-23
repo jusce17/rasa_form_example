@@ -5,7 +5,6 @@ intents:
   - deny
 
 
-
 entities:
 - client_name
 - client_email
