@@ -31,7 +31,8 @@ responses:
   - text: what is the message you would like me to send to our team ?
   utter_goodbye:
   - text: "Bye"
-
+forms:
+- form_get_client_message
 
 session_config:
   session_expiration_time: 60
