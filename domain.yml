@@ -3,6 +3,9 @@ intents:
   - goodbye
   - affirm
   - deny
+  - client_name_entry
+  - client_email_entry
+  - client_message_entry
 
 
 entities:

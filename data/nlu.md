@@ -7,7 +7,6 @@
 - hey there
 
 
-
 ## intent:affirm
 - yes
 - indeed
@@ -23,17 +22,6 @@
 - no way
 - not really
 
-
-
-## intent:create_digital_account
-- [Mista](ways_to_create_account)
-- [Conjunta](ways_to_create_account)
-- [Empresa](ways_to_create_account)
-- [mista](ways_to_create_account)
-- [conjunta](ways_to_create_account)
-- [empresa](ways_to_create_account)
-- [Presencial](ways_to_create_account)
-- [digital](ways_to_create_account:Digital)
 
 
 ## intent:client_name_entry
