@@ -1,8 +1,6 @@
 # for example purposes only
 
-discussion at
-
-[Rasa community forum](https://forum.rasa.com/t/how-to-create-a-chatbot-which-asks-name-email-and-message/33732/11?u=jusce17)
+discussion at [Rasa community forum](https://forum.rasa.com/t/how-to-create-a-chatbot-which-asks-name-email-and-message/33732/11?u=jusce17)
 
 ## 👷‍ Local Installation
 
