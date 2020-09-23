@@ -3,9 +3,8 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+
+
 
 entities:
 - client_name
@@ -22,7 +21,7 @@ slots:
     type: text
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hello"
   utter_ask_client_name:
   - text: What is your email address ?
   utter_ask_client_email:
