@@ -1,40 +1,40 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - client_name_entry
-  - client_email_entry
-  - client_message_entry
-
-
+- greet
+- goodbye
+- affirm
+- deny
+- client_name_entry
+- client_email_entry
+- client_message_entry
 entities:
 - client_name
 - client_email
 - client_message
 slots:
-  client_name:
-    type: text
   client_email:
+    type: text
+  client_message:
+    type: unfeaturized
+  client_name:
     type: text
   name:
     type: text
-  client_message:
-    type: text
 responses:
   utter_greet:
-  - text: "Hello"
+  - text: Hello
   utter_ask_client_name:
-  - text: What is your email address ?
+  - text: What is your  name ?
   utter_ask_client_email:
   - text: What is your email address ?
   utter_ask_client_message:
   - text: what is the message you would like me to send to our team ?
   utter_goodbye:
-  - text: "Bye"
+  - text: Bye
+actions:
+- client_email_entry
+- client_message_entry
 forms:
 - form_get_client_message
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
