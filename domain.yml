@@ -11,6 +11,15 @@ entities:
 - client_name
 - client_email
 - client_message
+slots:
+  client_name:
+    type: text
+  client_email:
+    type: text
+  name:
+    type: text
+  client_message:
+    type: text
 responses:
   utter_greet:
   - text: "Hey! How are you?"
