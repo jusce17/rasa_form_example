@@ -6,7 +6,6 @@
 - good evening
 - hey there
 
-
 ## intent:affirm
 - yes
 - indeed
@@ -22,8 +21,6 @@
 - no way
 - not really
 
-
-
 ## intent:client_name_entry
 - My name is [Rohit Sharma](client_name)
 - [John Doe](client_name:)
@@ -31,14 +28,19 @@
 - [Peter Richard](client_name)
 - People call me [Priya](client_name)
 - [Jane Doe](client_name)
-- [Max Mustermann](client_name)
+- [Max Abner](client_name)
+- [Eden](client_name)
+- My name is [Eden](client_name)
 - You can call me [Supriya](client_name)
 
 ## intent:client_email_entry
 - My email is  [eden.juscelino@gmail.com](client_email)
-- [eden.leandro@gmail.com](client_email)
+- [max@gmail.com](client_email)
 - the email is [fabiojoka@hotmail.com](client_email)
 
 ## intent:client_message_entry
--   [I am very happy with your site](client_message)
-- [please contact me](client_message)
+- [I really like your work](client_message)
+- My message is "[I would like you to contact me](client_message)"
+- I would like to say that "[I want to do business with you](client_message)"
+- the message is that "[An example of a message is a speech mae An example of a message inbox](client_message)"
+- my message [is something something something](client_message)
