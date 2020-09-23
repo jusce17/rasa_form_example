@@ -18,7 +18,6 @@ import logging
 from rasa_sdk.events import ReminderScheduled
 
 
-        return []
 
 
 class ActionUserMessage(FormAction):
@@ -34,7 +33,10 @@ class ActionUserMessage(FormAction):
 
     def submit(self,dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],):
 
-        # Do something dramatically here, like call an API for example lol
-        dispatcher.utter_message(text='TEST')
+        # Do something dramatically here, like call an API for example lol        
+
+        dispatcher.utter_message(' your name is {}'.format(tracker.get_slot("client_name")))
+        dispatcher.utter_message(' your email is {}'.format(tracker.get_slot("client_email")))
+        dispatcher.utter_message(' your message was {}'.format(tracker.get_slot("client_message")))
 
         return []
