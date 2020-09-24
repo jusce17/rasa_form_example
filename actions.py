@@ -30,10 +30,31 @@ class ActionUserMessage(FormAction):
         """A list of required slots that the form has to fill."""
 
         return ["client_name", "client_email", "client_message"]
+    """
+    def slot_mappings(self):
+        return {
+        "client_name": [
+        self.from_entity(entity = "client_name", intent="client_name_entry"),
+        ],
+        }
+    """
+    def slot_mappings(self):
+        # type: () -> Dict[Text: Union[Dict, List[Dict]]]
+        """A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+            or a list of them, where a first match will be picked"""
 
+        return {
+        "client_name": [ self.from_entity(entity = "client_name", intent="client_name_entry"),],
+        #"client_name": [self.from_entity(entity="client_name"),self.from_text()],
+        #"client_email": [self.from_entity(entity="client_email"),self.from_text()],
+        "client_message": [self.from_entity(entity="client_message"),self.from_text()]
+        }
     def submit(self,dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any],):
 
-        # Do something dramatically here, like call an API for example lol        
+        # Do something dramatically here, like call an API for example lol
 
         dispatcher.utter_message(' your name is {}'.format(tracker.get_slot("client_name")))
         dispatcher.utter_message(' your email is {}'.format(tracker.get_slot("client_email")))

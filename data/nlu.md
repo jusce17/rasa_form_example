@@ -6,35 +6,23 @@
 - good evening
 - hey there
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
 
 ## intent:client_name_entry
-- My name is [Rohit Sharma](client_name)
-- [John Doe](client_name:)
-- I am [Vishnu](client_name)
-- [Peter Richard](client_name)
-- People call me [Priya](client_name)
-- [Jane Doe](client_name)
-- [Max Abner](client_name)
-- [Eden](client_name)
-- My name is [Eden](client_name)
-- You can call me [Supriya](client_name)
+- My name is [Ricardo Usher](client_name)
+- My name is [Rohit](client_name)
+- [Lee Max](client_name) is my name
+- [Jhon](client_name) is my name
+- I am [Rohit Sharma](client_name)
+- I am [Jessica](client_name)
+- Call me [Joseph Philipe](client_name)
+- Call me [Max](client_name)
+- [Ron Jordan](client_name)
+- [Ivan](client_name)
+
 
 ## intent:client_email_entry
-- My email is  [eden.juscelino@gmail.com](client_email)
+- My email is [jhon.juscelino@gmail.com](client_email)
 - [max@gmail.com](client_email)
 - the email is [fabiojoka@hotmail.com](client_email)
 
