@@ -13,7 +13,7 @@
 ## Name entry
 * client_name_entry{"client_name": "Rohit Sharma"}
   - slot{"client_name": "Rohit Sharma"}
-  ## Name entry
+## Name entry
   * client_name_entry{"client_name": "Rohit"}
     - slot{"client_name": "Rohit"}
 
