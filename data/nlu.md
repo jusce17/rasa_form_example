@@ -32,3 +32,9 @@
 - I would like to say that "[I want to do business with you](client_message)"
 - the message is that "[An example of a message is a speech mae An example of a message inbox](client_message)"
 - my message [is something something something](client_message)
+
+## intent:whats_my_name
+- What is my name ?
+- do you know my name ?
+- How am I called ?
+- who am I ?

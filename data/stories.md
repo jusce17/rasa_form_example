@@ -19,8 +19,13 @@
 
 ## Email entry
 * client_email_entry{"client_email": "max@gmail.com"}
-- slot{"client_email": "max@gmail.com"}
+  - slot{"client_email": "max@gmail.com"}
 
 ## Message Entrey
 * client_message_entry
-- slot{"client_message": "An example of a message is a speech mae An example of a message inbox"}
+  - slot{"client_message": "An example of a message is a speech mae An example of a message inbox"}
+
+
+## WHAT IS MY Name
+* whats_my_name
+  - action_get_name

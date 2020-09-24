@@ -52,3 +52,20 @@ class ActionUserMessage(FormAction):
         dispatcher.utter_message(' your message was {}'.format(tracker.get_slot("client_message")))
 
         return []
+
+class ActionUserName(Action):
+    """
+    Ask if the user woud need any other help
+    """
+    def name(self) -> Text:
+        return "action_get_name"
+
+    def run(self, dispatcher, tracker, domain):
+        username = tracker.get_slot("client_name")
+        if not username :
+            dispatcher.utter_message(" you haven't told me your name yet")
+        else:
+            dispatcher.utter_message(' your name is {}'.format(username))
+
+
+        return []

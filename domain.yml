@@ -9,6 +9,7 @@ intents:
 - client_name_entry
 - client_email_entry
 - client_message_entry
+- whats_my_name
 entities:
 - client_name
 - client_email
@@ -35,5 +36,6 @@ actions:
 - utter_ask_client_name
 - utter_ask_client_email
 - utter_ask_client_message
+- action_get_name
 forms:
 - form_get_client_message
